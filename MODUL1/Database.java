@@ -9,23 +9,19 @@ public class Database {
 
     // TODO Create Method to Insert Menu to Database
     public void insertMenu(Menu menu) {
-        ListMenu(add(menu));
+        ListMenu.add(menu);
     }
 
     // TODO Create Method to Show Menu from Database
-    public void showMenu {
+    public void showMenu() {
         System.out.println("Our Menu");
         System.out.println("=========================");
-        for (int i = 1; i < listMenu.size(); i++) {
-            System.out.println(
-                    1 + i + "|" + listMenu.get(i).name + "|" + listMenu.get(i).category + "|" + listMenu.get(i).price);
+        for (int i = 1; i < ListMenu.size(); i++) {
+            System.out.println(1 + i + "|" + ListMenu.get(i).name + "|" + ListMenu.get(i).Category + "|" + ListMenu.get(i).price);
     }
 
 
     // TODO Create Method to Search Menu from Database
-    /**
-     * @param menu
-     */
     public void SearchMenu(Menu menu) {
     }
 

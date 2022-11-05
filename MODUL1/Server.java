@@ -7,13 +7,16 @@ public class Server {
         Database db = new Database();
 
         // TODO Create Menu
-        m1.setName(name: "Nasi Goreng");
-        m1.setCategory
+        Menu m1 = new Menu();
+        m1.setName( "Nasi Goreng");
+        m1.setCategory("Rice");
+        m1.setPrice(10000);
 
         // TODO Insert Menu to Database
-
+        db.insertMenu(m1);
 
         // TODO Display Main Menu
+        Scanner sc = new Scanner(System)
 
         // TODO Create User
 
